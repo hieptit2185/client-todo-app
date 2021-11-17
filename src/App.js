@@ -30,7 +30,7 @@ export default function App() {
   });
 
   const history = useHistory();
-  const api = "http://localhost:6969";
+  const api = "http://localhost:6969"|| "https://todo-app-sv.herokuapp.com";
 
   const { search } = useLocation();
 
